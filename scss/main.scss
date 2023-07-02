@@ -147,3 +147,38 @@ banner {
 //         // background-color: hotpink;
 //     }
 // }
+
+//! FOR LOOP
+//*************************
+
+//***********************************************
+//! IF-ELSE
+//************************************************
+
+footer {
+    p {
+        background-color: $bannerBgColor;
+    }
+    .social-icons {
+        display: flex;
+        $textColor: black, red, brown, burlywood, tomato; // liste oluşturduk
+
+        @for $i from 1 through 5 {
+            .social#{$i} {
+                width: 20%;
+                padding: 3px * $i;
+                background-color: darken(rgb(154, 154, 180), $i * 5);
+                font-size: $i * 1rem;
+                color: nth(
+                    $textColor,
+                    $i
+                ); //listenin elemanlarını nth() metoduyla yaklıyoruz.
+                @if 1 * $i / 2 >= 2 {
+                    text-decoration: underline;
+                } @else {
+                    text-decoration: overline;
+                }
+            }
+        }
+    }
+}
