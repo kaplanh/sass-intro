@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*/ partial dosyaları @import ifadesiyle ana dosyamıza import edip kullanabiliriz*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*değişken tanımalrken $ işaretini kullanıyoruz.*/
+body {
+  background-color: pink; /*değişkenşi kullanırkende aynı şekilde $ işaretini kullanıyoruz*/
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

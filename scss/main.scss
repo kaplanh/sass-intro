@@ -1,0 +1,11 @@
+/*/ partial dosyaları @import ifadesiyle ana dosyamıza import edip kullanabiliriz*/
+
+@import "reset";
+@import "variables";
+
+body {
+    background-color: $bgColor; /*değişkenşi kullanırkende aynı şekilde $ işaretini kullanıyoruz*/
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $fontColor;
+}
