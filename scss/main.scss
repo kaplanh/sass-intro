@@ -67,8 +67,10 @@ banner {
         width: 30%;
     }
 }
+//******************
+//! @mixin @include
+//******************
 
-/*! mixin @include */
 /* fonksiyon tanımlıyoruz aslında. Bu fonksiyon parametre alabilen bir fonksiyon. Parametreleri tanımalrken $ işaretini kullanıyoruz. Mixinler parametre almak zorunda değildir. yani static yapılar da oluşturabiliriz. */
 /*mixinleri çaığırırken @include anahtar kelimesiyle çağırıyoruz.*/
 @mixin myBox($backColor, $color) {
@@ -97,3 +99,51 @@ banner {
         @include myBox(maroon, darkblue);
     }
 }
+//*****************
+//! @EXTEND
+//*****************
+
+.articles {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    .article1 {
+        background-color: gray;
+        width: 50%;
+        height: 12rem;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+    .article2 {
+        // width: 50%;
+        // height: 12rem;
+        // border-radius: 5px;
+        // padding: 0.5rem;
+        // background-color: hotpink;
+        @extend .article1; //* üstteki kodları uzun uzun yazmak yerinearticle1 elementinden miras aldık. Değiştirmek istedğimiz değerleride @extend işleminden sonraki satırlara yazıyoruz.
+        // background-color: hotpink;
+    }
+}
+
+// .articles {
+//     display: flex;
+//     padding: 1rem;
+//     gap: 1rem;
+//     @extend .cards; /*diğer elemnetleri miras almak istiyorsak önce ana çatıdaki elemntin kendisini ana çatıya inherit etmemiz lazım.*/
+//     .article1 {
+//         background-color: gray;
+//         width: 50%;
+//         height: 12rem;
+//         border-radius: 5px;
+//         padding: 0.5rem;
+//     }
+//     .article2 {
+//         // width: 50%;
+//         // height: 12rem;
+//         // border-radius: 5px;
+//         // padding: 0.5rem;
+//         // background-color: hotpink;
+//         @extend .card1; //* üstteki kodları uzun uzun yazmak yerinearticle1 elementinden miras aldık. Değiştirmek istedğimiz değerleride @extend işleminden sonraki satırlara yazıyoruz.
+//         // background-color: hotpink;
+//     }
+// }
