@@ -1,12 +1,11 @@
 @charset "UTF-8";
-/*/ partial dosyaları @import ifadesiyle ana dosyamıza import edip kullanabiliriz*/
+/*/ partial dosyaları @import ifadesiyle ana dosyamıza import edip kullanabiliriz*/ /*değişken tanımalrken $ işaretini kullanıyoruz.*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*değişken tanımalrken $ işaretini kullanıyoruz.*/
 body {
   background-color: pink; /*değişkenşi kullanırkende aynı şekilde $ işaretini kullanıyoruz*/
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
