@@ -63,17 +63,7 @@ Ma
   
 
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SCSS Konuları</title>
-    <style>
-      pre {
-        background-color: #f5f5f5;
-        padding: 10px;
-      }
-    </style>
+
   </head>
   <p>
     <header>
