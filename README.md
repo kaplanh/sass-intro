@@ -5,7 +5,7 @@
 
 
 ![sasintro](https://github.com/kaplanh/sass-intro/assets/101884444/013aef79-20b2-445d-8d18-6229de6143b0)
-
+[Live Link](https://kaplanh.github.io/sass-intro/)
 ## Description
 
 Project aims to create website site using sass.
