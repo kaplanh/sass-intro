@@ -64,9 +64,9 @@ Ma
 
 
 
-  </head>
-  <p>
-    <header>
+  
+  <body>
+	  <header>
       <h1 class="heading">SCSS</h1>
     </header>
   <h2>CSS Preprosessorler</h2>
