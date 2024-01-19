@@ -1,7 +1,4 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
-
-# Project-008 : Sass Website Page Design
+#  Sass Intro
 
 
 ![sasintro](https://github.com/kaplanh/sass-intro/assets/101884444/013aef79-20b2-445d-8d18-6229de6143b0)
@@ -17,7 +14,7 @@ Project aims to create website site using sass.
 ## Project Skeleton 
 
 ```
-008-Sass-website-page-design (folder)
+008-Sass-intro(folder)
 |
         |----readme.md               
         |----images  
@@ -25,56 +22,31 @@ Project aims to create website site using sass.
         |----css (folder)   
               |----style.css  
               |----style.css.map  
-        |----scss (folder)   
-              |----abstracts (folder) 
-                    |----_mixin.scss 
-                    |----_variables.scss 
-              |----base (folder) 
-                    |----_reset.scss               
-              |----components (folder) 
-                    |----_footer.scss 
-                    |----_navbar.scss 
-                    |----_responsive.scss 
-              |----sections (folder) 
-                    |----_about.scss 
-                    |----_destination.scss 
-                    |----_home.scss 
-                    |----_guide.scss 
+        |----scss (folder)     
+              |----_variables.scss 
+              |----_reset.scss               
               |----main.scss  
-        |----assets (folder)
+        
 ```
-
-## Expected Outcome
-
-![Project  Snapshot](./Sass.gif) 
-
 ## Objective
 
-Make a web page like in the [example project](https://scss-projects.vercel.app/).
+Ma
 
 ### At the end of the project, following topics are to be covered;
 
 - HTML 
 
-- Js
-
 - CSS
 
 - Sass / Scss
 
-### At the end of the project, students will be able to;
+### At the end of the project, developers will be able to;
 
 - improve coding skills within HTML, CSS & Sass/Scss
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-## Steps to Solution 
 
-- Step 1: Download or clone project repo on Github 
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Create Sass Website.
 
 >>Part-1 HTML Structure
 
@@ -90,17 +62,12 @@ Make a web page like in the [example project](https://scss-projects.vercel.app/)
 
   
 
-- Step 3: Push your application into your own public repo on Github
 
-- Step 4: Deploy your application on Github template to showcase your app within your team.
 
 ## Notes
 
-- You can use HTML and CSS to complete this project.
+- You can use HTML and CSS with sass/scss to complete this project.
 
-## Resources
-
--  [Images](./assets)
 
 
 <p align="center"> ⌛<strong> Happy Coding </strong> ✍ </p>
