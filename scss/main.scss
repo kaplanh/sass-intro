@@ -9,6 +9,7 @@ body {
     font-size: $fontSize;
     color: $fontColor;
 }
+
 /** Nesting */
 
 header {
@@ -43,7 +44,8 @@ header {
         }
     }
 }
-banner {
+
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,10 +69,8 @@ banner {
         width: 30%;
     }
 }
-//******************
-//! @mixin @include
-//******************
 
+/*! mixin @include */
 /* fonksiyon tanımlıyoruz aslında. Bu fonksiyon parametre alabilen bir fonksiyon. Parametreleri tanımalrken $ işaretini kullanıyoruz. Mixinler parametre almak zorunda değildir. yani static yapılar da oluşturabiliriz. */
 /*mixinleri çaığırırken @include anahtar kelimesiyle çağırıyoruz.*/
 @mixin myBox($backColor, $color) {
@@ -99,6 +99,7 @@ banner {
         @include myBox(maroon, darkblue);
     }
 }
+
 //*****************
 //! @EXTEND
 //*****************

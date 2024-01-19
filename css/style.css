@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*/ partial dosyaları @import ifadesiyle ana dosyamıza import edip kullanabiliriz*/ /*değişken tanımalrken $ işaretini kullanıyoruz.*/
+/*/ partial dosyaları @import ifadesiyle ana dosyamıza import edip kullanabiliriz*/
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +46,7 @@ header ul li a:hover {
   text-decoration: underline;
 }
 
-banner {
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,20 +54,21 @@ banner {
   padding: 1rem;
   line-height: 2rem;
 }
-banner aside button {
+.banner aside button {
   padding: 0.5rem;
   border: none;
   border-radius: 7px;
   background-color: rgb(224, 169, 169);
   cursor: pointer;
 }
-banner aside button:hover {
+.banner aside button:hover {
   background-color: pink;
 }
-banner img {
+.banner img {
   width: 30%;
 }
 
+/*! mixin @include */
 /* fonksiyon tanımlıyoruz aslında. Bu fonksiyon parametre alabilen bir fonksiyon. Parametreleri tanımalrken $ işaretini kullanıyoruz. Mixinler parametre almak zorunda değildir. yani static yapılar da oluşturabiliriz. */
 /*mixinleri çaığırırken @include anahtar kelimesiyle çağırıyoruz.*/
 .cards {
