@@ -48,20 +48,6 @@ Ma
 
 
 
->>Part-1 HTML Structure
-
-	- Creat structure of the HTML5
-	- Give name of your project (title)
-	- Create the main structur of the HTML
-
->>Part-2 Sass / Scss Structure
-
-	- Set a background
-	- Set color and margin etc..
-	- Define others color-size-padding etc with scss
-
-  
-
 
 
   
