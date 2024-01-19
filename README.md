@@ -4,6 +4,7 @@
 # Project-008 : Sass Website Page Design
 
 
+![sasintro](https://github.com/kaplanh/sass-intro/assets/101884444/013aef79-20b2-445d-8d18-6229de6143b0)
 
 ## Description
 
